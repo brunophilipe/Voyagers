@@ -7,6 +7,16 @@ body
 	font-family: 'Ropa Sans', sans-serif;
 }
 
+iframe {
+	border: 0;
+	overflow: hidden;
+}
+
+a
+{
+	color: #fff;
+}
+
 #header
 {
 	color: #eef;
@@ -260,6 +270,11 @@ body
 	font-size: 16px;
 }
 
+p.probe-name span
+{
+	font-size: 10px;
+}
+
 #footer
 {
 	position: absolute;
@@ -273,11 +288,6 @@ body
 #footer p
 {
 	margin: 0 0 4px 0;
-}
-
-#footer a
-{
-	color: #fff;
 }
 
 @media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {

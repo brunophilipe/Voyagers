@@ -6,7 +6,7 @@
 		</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="author" content="Bruno Philipe">
-		<meta name="description" content="Real time diagram displaying the linear distances from the Voyager probes to the Sun and to the Earth.">
+		<meta name="description" content="Real-time diagram displaying the linear distances from the Voyager probes to the Sun and to the Earth.">
 
 		<script type="text/javascript" src="scripts/jquery-1.5.js"></script>
 		<script type="text/javascript" src="scripts/distance.js"></script>
@@ -32,6 +32,7 @@
 		<div id="header">
 			<h1>Voyagers Now</h1>
 			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
+			<iframe src="http://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="100" height="20"></iframe>
 		</div>
 		<div id="sun">
 			<p class="label">Sun</p>
@@ -91,12 +92,12 @@
 		</div>
 		<div id="distances">
 			<div>
-				<p class="probe-name">Voyager 1</p>
+				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="http://en.wikipedia.org/wiki/Voyager_1" target="_blank">Voyager 1</a></p>
 				<p>Distance from Sun: <span id="voy1_ds">0</span></p>
 				<p>Distance from Earth: <span id="voy1_de">0</span></p>
 			</div>
 			<div>
-				<p class="probe-name">Voyager 2</p>
+				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="http://en.wikipedia.org/wiki/Voyager_2" target="_blank">Voyager 2</a></p>
 				<p>Distance from Sun: <span id="voy2_ds">0</span></p>
 				<p>Distance from Earth: <span id="voy2_de">0</span></p>
 			</div>
