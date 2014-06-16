@@ -4,6 +4,10 @@
 		<title>
 			Voyagers Now
 		</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Bruno Philipe">
+		<meta name="description" content="Real time diagram displaying the linear distances from the Voyager probes to the Sun and to the Earth.">
+
 		<script type="text/javascript" src="scripts/jquery-1.5.js"></script>
 		<script type="text/javascript" src="scripts/distance.js"></script>
 		<script type="text/javascript">$(window).load(function () {setInterval('dist_controller()',100); updatePlanets(); setVisible();});</script>
