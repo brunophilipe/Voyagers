@@ -96,8 +96,8 @@
 			</div>
 		</div>
 		<div id="footer">
-			<p>Diagram created by <a href="http://brunophilipe.com">Bruno Philipe</a></p>
-			<p>Sun, Planets and Probes sizes and positions are not to scale, but distances are (Perihelions used).</p>
+			<p>Diagram created by <a href="http://brunophilipe.com">Bruno Philipe</a>.</p>
+			<p>Bodies and Probes sizes and positions are not to scale, but relative linear distances are (Perihelions used).</p>
 			<p>Data retreived from <a href="http://voyager.jpl.nasa.gov/where/" target="_blank">NASA JPL website</a> and used with <a href="usage_permission.pdf">permission</a>.</p>
 		</div>
 	</body>
