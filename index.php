@@ -17,11 +17,13 @@
 	</head>
 	<body>
 		<div id="settings">
-			<select onchange="updateUnit()" id="selectUnit">
-				<option value="km">Kilometers</option>
-				<option value="mi">Miles</option>
-				<option value="au">Astronomical Units</option>
-			</select>
+			<p>Pick Unit:
+				<select onchange="updateUnit()" id="selectUnit">
+					<option value="km">Kilometers</option>
+					<option value="mi">Miles</option>
+					<option value="au">Astronomical Units</option>
+				</select>
+			</p>
 		</div>
 		<div id="header">
 			<h1>Voyagers Now</h1>

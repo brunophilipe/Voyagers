@@ -21,6 +21,13 @@ body
 #settings
 {
 	float: right;
+	color: #fff;
+}
+
+#settings select
+{
+	position: relative;
+	top: -2px;
 }
 
 #sun
