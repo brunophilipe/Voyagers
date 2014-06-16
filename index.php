@@ -32,7 +32,8 @@
 		<div id="header">
 			<h1>Voyagers Now</h1>
 			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
-			<iframe src="http://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="100" height="20"></iframe>
+			<iframe src="http://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="90" height="20"></iframe>
+			<div class="fb-like" data-href="http://www.brunophilipe.com/experiments/voyagers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="position: relative; left: -4px; top: -4px;"></div>
 		</div>
 		<div id="sun">
 			<p class="label">Sun</p>
@@ -107,5 +108,22 @@
 			<p>Bodies and Probes sizes and positions are not to scale, but relative linear distances are (Perihelions used).</p>
 			<p>Data retreived from <a href="http://voyager.jpl.nasa.gov/where/" target="_blank">NASA JPL website</a> and used with <a href="usage_permission.pdf">permission</a>.</p>
 		</div>
+		<script>
+	      window.fbAsyncInit = function() {
+	        FB.init({
+	          appId      : '616298578467025',
+	          xfbml      : true,
+	          version    : 'v2.0'
+	        });
+	      };
+
+	      (function(d, s, id){
+	         var js, fjs = d.getElementsByTagName(s)[0];
+	         if (d.getElementById(id)) {return;}
+	         js = d.createElement(s); js.id = id;
+	         js.src = "//connect.facebook.net/en_US/sdk.js";
+	         fjs.parentNode.insertBefore(js, fjs);
+	       }(document, 'script', 'facebook-jssdk'));
+	    </script>
 	</body>
 </html>
