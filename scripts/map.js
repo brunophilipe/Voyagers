@@ -20,12 +20,22 @@ distances[9] = 15366.204;
 
 window.onresize = updatePlanets;
 
+var visible = false;
+
 function setVisible() {
     $('#sun').css('display', 'block');
     $('#space').css('display', 'block');
+    $('.planet').css('display', 'block');
+    $('.probe').css('display', 'block');
+
+    visible = true;
 }
 
 function updatePlanets() {
+    if (!visible) {
+        setVisible();
+    };
+
     dist_controller();
 
     var value;
