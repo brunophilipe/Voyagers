@@ -4,22 +4,22 @@
 	Handles updating of Voyager Distances from Earth and the Sun
 */
 
-var epoch_0 = 1396022400;
-var epoch_1 = 1396108800;
+var epoch_0 = 1402848000;
+var epoch_1 = 1402934400;
 
-var current_time = 1396023082;
+var current_time = 1402886809;
 
-var dist_0_v1 = 19005086889.1886;
-var dist_1_v1 = 19004580691.1879;
+var dist_0_v1 = 19042837824.8518;
+var dist_1_v1 = 19044613168.8544;
 
-var dist_0_v2 = 15648215016.4233;
-var dist_1_v2 = 15647455241.0300;
+var dist_0_v2 = 15611722310.3292;
+var dist_1_v2 = 15612108969.3229;
 
-var dist_0_v1s = 19050043513.2271;
-var dist_1_v1s = 19051509476.4327;
+var dist_0_v1s = 19165850995.1535;
+var dist_1_v1s = 19167316866.3954;
 
-var dist_0_v2s = 15620830315.9160;
-var dist_1_v2s = 15622126693.8954;
+var dist_0_v2s = 15723253286.3428;
+var dist_1_v2s = 15724549895.7680;
 
 var current_dist_km_v1 = 0;
 var current_dist_au_v1 = 0;
