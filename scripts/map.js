@@ -1,7 +1,7 @@
-var distances = Array(46.001,107.477,147.098,206.669,740.573,1353.572,2748.938,4452.940);
-var objects = 	Array('mercury','venus','earth','mars','jupiter','saturn','uranus','neptune');//voyager1,voyager2
+var distances = Array(46.001, 107.477, 147.098, 206.669, 740.573, 1353.572, 2748.938, 4452.940);
+var objects = Array('mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune'); //voyager1,voyager2
 
-distances.push((distances[distances.length-1]+100));
+distances.push((distances[distances.length - 1] + 100));
 
 //Distances in millions of kms
 /*
@@ -20,29 +20,31 @@ distances[9] = 15366.204;
 
 window.onresize = updatePlanets;
 
-function setVisible()
-{
-	$('#sun').css('display','block');
-	$('#space').css('display','block');
+function setVisible() {
+    $('#sun').css('display', 'block');
+    $('#space').css('display', 'block');
 }
 
-function updatePlanets()
-{
-	dist_controller();
+function updatePlanets() {
+    dist_controller();
 
-	var value;
+    var value;
 
-	for (var i = 0; i < objects.length; i++) {
-		value = (distances[i]/(current_dist_km_v1s/1000000) * 0.95 * ($('#space').width()-25))+25;
-		$('#'+objects[i]).css('left', value);
-	};
+    for (var i = 0; i < objects.length; i++) {
+        value = (distances[i] / (current_dist_km_v1s / 1000000) * 0.95 * ($('#space').width() - 25)) + 25;
+        $('#' + objects[i]).css('left', value);
+    };
 
-	value = (0.95 * ($('#space').width()-25))+25;
-	$('#voyager1').css('left', value);
+    value = (0.95 * ($('#space').width() - 25)) + 25;
+    $('#voyager1').css('left', value);
 
-	value = ((current_dist_km_v2s/1000000)/(current_dist_km_v1s/1000000) * 0.95 * ($('#space').width()-25))+25;
-	$('#voyager2').css('left', value);
+    value = ((current_dist_km_v2s / 1000000) / (current_dist_km_v1s / 1000000) * 0.95 * ($('#space').width() - 25)) + 25;
+    $('#voyager2').css('left', value);
 
-	$('#sun').css('top',($(window).height()*0.5)-100);
-	$('#space').css('top',($(window).height()*0.5)-52);
+    $('#sun').css('top', ($(window).height() * 0.5) - 100);
+    $('#space').css('top', ($(window).height() * 0.5) - 52);
+}
+
+function updateUnit() {
+    unit = $('#selectUnit').val();
 }

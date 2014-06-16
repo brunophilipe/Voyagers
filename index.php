@@ -12,10 +12,17 @@
 		<link rel="stylesheet" type="text/css" href="map.css">
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 		<script type="text/javascript">
-
+			var unit = 'km';
 		</script>
 	</head>
 	<body>
+		<div id="settings">
+			<select onchange="updateUnit()" id="selectUnit">
+				<option value="km">Kilometers</option>
+				<option value="mi">Miles</option>
+				<option value="au">Astronomical Units</option>
+			</select>
+		</div>
 		<div id="header">
 			<h1>Voyagers Now</h1>
 			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
@@ -79,13 +86,13 @@
 		<div id="distances">
 			<div>
 				<p class="probe-name">Voyager 1</p>
-				<p>Distance from Sun: <span id="voy1_kms">0</span></p>
-				<p>Distance from Earth: <span id="voy1_km">0</span></p>
+				<p>Distance from Sun: <span id="voy1_ds">0</span></p>
+				<p>Distance from Earth: <span id="voy1_de">0</span></p>
 			</div>
 			<div>
 				<p class="probe-name">Voyager 2</p>
-				<p>Distance from Sun: <span id="voy2_kms">0</span></p>
-				<p>Distance from Earth: <span id="voy2_km">0</span></p>
+				<p>Distance from Sun: <span id="voy2_ds">0</span></p>
+				<p>Distance from Earth: <span id="voy2_de">0</span></p>
 			</div>
 		</div>
 		<div id="footer">
