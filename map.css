@@ -1,0 +1,197 @@
+body
+{
+	background-color: #000001;
+	background-image: url(images/background.jpg);
+	background-size: 250px;
+	background-repeat: repeat;
+	font-family: 'Ropa Sans', sans-serif;
+}
+
+#header
+{
+	height: 80px;
+	color: #eef;
+	margin: 0 0 0 20px;
+}
+
+#sun
+{
+	width: 25px;
+	height: 200px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	background-image: url(images/sun.png);
+	background-size: 25px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#sun .label
+{
+	-webkit-transform: rotateZ(-80deg) translateX(30px) translateY(-12px);
+	-moz-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
+	-ms-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
+	-o-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
+	transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
+}
+
+#space
+{
+	position: absolute;
+	top: 0;
+	left: 25px;
+	right: 0;
+	height: 60px;
+	padding-top: 40px;
+}
+
+#space > div
+{
+	position: absolute;
+}
+
+.planet, .probe
+{
+	-webkit-transition: all ease-in-out 2s;
+	-moz-transition: all ease-in-out 2s;
+	-ms-transition: all ease-in-out 2s;
+	-o-transition: all ease-in-out 2s;
+	transition: all ease-in-out 2s;
+
+	float: left;
+}
+
+.planet div, .probe div
+{
+	width: 5px;
+	height: 5px;
+	border-radius: 2px;
+	float: left;
+}
+
+.planet:hover .label
+{
+	-webkit-transform: rotateZ(-80deg) translateX(50px) translateY(-20px) scale(2) !important;
+}
+
+.label
+{
+	font-size: 11px;
+	color: #fff;
+	margin: 0;
+	width: 50px;
+	-webkit-transform: rotateZ(-80deg) translateX(16px) translateY(-22px) scale(0.8);
+	-moz-transform: rotateZ(-80deg) translateX(16px) translateY(-22px) scale(0.8);
+	-ms-transform: rotateZ(-80deg) translateX(16px) translateY(-22px) scale(0.8);
+	-o-transform: rotateZ(-80deg) translateX(16px) translateY(-22px) scale(0.8);
+	transform: rotateZ(-80deg) translateX(16px) translateY(-22px) scale(0.8);
+
+	-webkit-transition: all ease-in-out 0.5s;
+	-moz-transition: all ease-in-out 0.5s;
+	-ms-transition: all ease-in-out 0.5s;
+	-o-transition: all ease-in-out 0.5s;
+	transition: all ease-in-out 0.5s;
+}
+
+#mercury .label
+{
+	-webkit-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+	-moz-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+	-ms-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+	-o-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+	transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+}
+
+#venus .label
+{
+	-webkit-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+	-moz-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+	-ms-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+	-o-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+	transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+}
+
+#mars .label
+{
+	-webkit-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+	-moz-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+	-ms-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+	-o-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+	transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+}
+
+#mercury div	{background-color: #FFB380; width: 3px; height: 3px;}
+#venus div		{background-color: #2EFFCE; width: 3px; height: 3px;}
+#earth div		{background-color: #03C1E7; width: 3px; height: 3px;}
+#mars div		{background-color: #E44D08; width: 3px; height: 3px;}
+#jupiter div	{background-color: #FFCA42;}
+#saturn div		{background-color: #FFB442;}
+#uranus div		{background-color: #7EE5FF;}
+#neptune div	{background-color: #2797FF;}
+
+#voyager1 div	{background-color: #EEE; width: 2px; height: 2px;}
+#voyager2 div	{background-color: #EEE; width: 2px; height: 2px;}
+
+#distances
+{
+	position: absolute;
+	right: 10px;
+	bottom: 14px;
+	height: 60px;
+	width: 100%;
+	color: #ffe;
+	text-align: right;
+}
+
+#distances > div
+{
+	display: inline-block;
+	float: right;
+	margin-left: 15px;
+}
+
+#distances p
+{
+	font-size: 14px;
+	margin: 0 0 6px;
+}
+
+#distances p.probe-name
+{
+	font-size: 16px;
+}
+
+#footer
+{
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	height: 30px;
+	font-size: 12px;
+	color: #eee;
+	text-align: left;
+}
+
+#footer p
+{
+	margin: 0 0 4px 0;
+}
+
+#footer a
+{
+	color: #fff;
+}
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
+	body
+	{
+		background-image: url(images/background@2x.jpg);
+	}
+
+	#sun
+	{
+		background-image: url(images/sun@2x.png);
+	}
+}
