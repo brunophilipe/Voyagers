@@ -56,11 +56,11 @@ a
 
 #sun .label
 {
-	-webkit-transform: rotateZ(-80deg) translateX(30px) translateY(-12px);
-	-moz-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
-	-ms-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
-	-o-transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
-	transform: rotateZ(-80deg) translateX(20px) translateY(-22px);
+	-webkit-transform: translateX(20px) translateY(6px);
+	-moz-transform: translateX(20px) translateY(6px);
+	-ms-transform: translateX(20px) translateY(6px);
+	-o-transform: translateX(20px) translateY(6px);
+	transform: translateX(20px) translateY(6px);
 }
 
 #space
@@ -103,11 +103,6 @@ a
 	color: #fff;
 	margin: 0;
 	width: 50px;
-	-webkit-transform: rotateZ(-80deg) translateX(16px) translateY(-22px);
-	-moz-transform: rotateZ(-80deg) translateX(16px) translateY(-22px);
-	-ms-transform: rotateZ(-80deg) translateX(16px) translateY(-22px);
-	-o-transform: rotateZ(-80deg) translateX(16px) translateY(-22px);
-	transform: rotateZ(-80deg) translateX(16px) translateY(-22px);
 
 	-webkit-transition: all ease-in-out 0.5s;
 	-moz-transition: all ease-in-out 0.5s;
