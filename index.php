@@ -18,52 +18,62 @@
 	<body>
 		<div id="header">
 			<h1>Voyagers Now</h1>
-			<p>How far are the Voyager spacecrafts from the Sun and the Earth?</p>
+			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
 		</div>
 		<div id="sun">
 			<p class="label">Sun</p>
 		</div>
 		<div id="space">
 			<div class="planet" id="mercury">
+				<div class="line"></div>
 				<p class="label">Mercury</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="venus">
+				<div class="line"></div>
 				<p class="label">Venus</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="earth">
+				<div class="line"></div>
 				<p class="label">Earth</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="mars">
+				<div class="line"></div>
 				<p class="label">Mars</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="jupiter">
+				<div class="line"></div>
 				<p class="label">Jupiter</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="saturn">
+				<div class="line"></div>
 				<p class="label">Saturn</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="uranus">
+				<div class="line"></div>
 				<p class="label">Uranus</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="planet" id="neptune">
+				<div class="line"></div>
 				<p class="label">Neptune</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 
 			<div class="probe" id="voyager1">
+				<div class="line"></div>
 				<p class="label">Voyager 1</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 			<div class="probe" id="voyager2">
+				<div class="line"></div>
 				<p class="label">Voyager 2</p>
-				<div></div>
+				<div class="render"></div>
 			</div>
 		</div>
 		<div id="distances">

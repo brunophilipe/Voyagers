@@ -63,17 +63,12 @@ body
 	float: left;
 }
 
-.planet div, .probe div
+.planet div.render, .probe div.render
 {
 	width: 5px;
 	height: 5px;
 	border-radius: 2px;
 	float: left;
-}
-
-.planet:hover .label
-{
-	-webkit-transform: rotateZ(-80deg) translateX(50px) translateY(-20px) scale(2) !important;
 }
 
 .label
@@ -95,44 +90,130 @@ body
 	transition: all ease-in-out 0.5s;
 }
 
+.line
+{
+	float: left;
+
+	width: 1px;
+	height: 1px;
+
+	position: relative;
+	background-color: #fff;
+}
+
 #mercury .label
 {
-	-webkit-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
-	-moz-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
-	-ms-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
-	-o-transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
-	transform: rotateZ(-80deg) translateX(16px) translateY(-24px) scale(0.8);
+	-webkit-transform: translateX(-6px) translateY(-40px) scale(0.8);
+	-moz-transform: translateX(-6px) translateY(-40px) scale(0.8);
+	-ms-transform: translateX(-6px) translateY(-40px) scale(0.8);
+	-o-transform: translateX(-6px) translateY(-40px) scale(0.8);
+	transform: translateX(-6px) translateY(-40px) scale(0.8);
+}
+
+#mercury .line
+{
+	height: 36px;
+
+	top: -28px;
+	left: 2px;
 }
 
 #venus .label
 {
-	-webkit-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
-	-moz-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
-	-ms-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
-	-o-transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
-	transform: rotateZ(-80deg) translateX(-13px) translateY(-23px) scale(0.8);
+	-webkit-transform: translateX(-6px) translateY(56px) scale(0.8);
+	-moz-transform: translateX(-6px) translateY(56px) scale(0.8);
+	-ms-transform: translateX(-6px) translateY(56px) scale(0.8);
+	-o-transform: translateX(-6px) translateY(56px) scale(0.8);
+	transform: translateX(-6px) translateY(56px) scale(0.8);
+}
+
+#venus .line
+{
+	height: 36px;
+
+	top: 18px;
+	left: 2px;
+}
+
+#earth .label
+{
+	-webkit-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-moz-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-ms-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-o-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	transform: translateX(-6px) translateY(-20px) scale(0.8);
+}
+
+#earth .line
+{
+	height: 18px;
+
+	top: -8px;
+	left: 2px;
 }
 
 #mars .label
 {
-	-webkit-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
-	-moz-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
-	-ms-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
-	-o-transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
-	transform: rotateZ(-80deg) translateX(-11px) translateY(-22px) scale(0.8);
+	-webkit-transform: translateX(-6px) translateY(36px) scale(0.8);
+	-moz-transform: translateX(-6px) translateY(36px) scale(0.8);
+	-ms-transform: translateX(-6px) translateY(36px) scale(0.8);
+	-o-transform: translateX(-6px) translateY(36px) scale(0.8);
+	transform: translateX(-6px) translateY(36px) scale(0.8);
 }
 
-#mercury div	{background-color: #FFB380; width: 3px; height: 3px;}
-#venus div		{background-color: #2EFFCE; width: 3px; height: 3px;}
-#earth div		{background-color: #03C1E7; width: 3px; height: 3px;}
-#mars div		{background-color: #E44D08; width: 3px; height: 3px;}
-#jupiter div	{background-color: #FFCA42;}
-#saturn div		{background-color: #FFB442;}
-#uranus div		{background-color: #7EE5FF;}
-#neptune div	{background-color: #2797FF;}
+#mars .line
+{
+	height: 18px;
 
-#voyager1 div	{background-color: #EEE; width: 2px; height: 2px;}
-#voyager2 div	{background-color: #EEE; width: 2px; height: 2px;}
+	top: 18px;
+	left: 2px;
+}
+
+#jupiter .label, #saturn .label, #uranus .label, #neptune .label
+{
+	-webkit-transform: translateX(-4px) translateY(-20px) scale(0.8);
+	-moz-transform: translateX(-4px) translateY(-20px) scale(0.8);
+	-ms-transform: translateX(-4px) translateY(-20px) scale(0.8);
+	-o-transform: translateX(-4px) translateY(-20px) scale(0.8);
+	transform: translateX(-4px) translateY(-20px) scale(0.8);
+}
+
+#jupiter .line, #saturn .line, #uranus .line, #neptune .line
+{
+	height: 18px;
+
+	top: -8px;
+	left: 3.25px;
+}
+
+#mercury div.render 	{background-color: #FFB380; width: 3px; height: 3px;}
+#venus div.render 		{background-color: #2EFFCE; width: 3px; height: 3px;}
+#earth div.render 		{background-color: #03C1E7; width: 3px; height: 3px;}
+#mars div.render 		{background-color: #E44D08; width: 3px; height: 3px;}
+#jupiter div.render 	{background-color: #FFCA42;}
+#saturn div.render 		{background-color: #FFB442;}
+#uranus div.render 		{background-color: #7EE5FF;}
+#neptune div.render 	{background-color: #2797FF;}
+
+#voyager1 .label, #voyager2 .label
+{
+	-webkit-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-moz-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-ms-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	-o-transform: translateX(-6px) translateY(-20px) scale(0.8);
+	transform: translateX(-6px) translateY(-20px) scale(0.8);
+}
+
+#voyager1 .line, #voyager2 .line
+{
+	height: 18px;
+
+	top: -8px;
+	left: 1.5px;
+}
+
+#voyager1 div.render 	{background-color: #EEE; width: 2px; height: 2px;}
+#voyager2 div.render 	{background-color: #EEE; width: 2px; height: 2px;}
 
 #distances
 {
@@ -168,7 +249,6 @@ body
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
-	height: 30px;
 	font-size: 12px;
 	color: #eee;
 	text-align: left;
