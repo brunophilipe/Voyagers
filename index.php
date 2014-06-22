@@ -109,6 +109,16 @@
 			<p>Data retreived from <a href="http://voyager.jpl.nasa.gov/where/" target="_blank">NASA JPL website</a> and used with <a href="usage_permission.pdf">permission</a>.</p>
 		</div>
 		<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-30675692-1', 'brunophilipe.com');
+		ga('send', 'pageview');
+
+		</script>
+		<script>
 	      window.fbAsyncInit = function() {
 	        FB.init({
 	          appId      : '616298578467025',
