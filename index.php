@@ -14,7 +14,7 @@
 		<script type="text/javascript" src="scripts/map.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="map.css">
-		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 		<script type="text/javascript">
 			var unit = 'km';
 		</script>
@@ -32,8 +32,8 @@
 		<div id="header">
 			<h1>Voyagers Now</h1>
 			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
-			<iframe src="http://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="90" height="20"></iframe>
-			<div class="fb-like" data-href="http://www.brunophilipe.com/experiments/voyagers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="position: relative; left: -4px; top: -4px;"></div>
+			<iframe src="https://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="90" height="20"></iframe>
+			<div class="fb-like" data-href="https://www.brunophilipe.com/experiments/voyagers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="position: relative; left: -4px; top: -4px;"></div>
 		</div>
 		<div id="sun">
 			<p class="label">Sun</p>
@@ -93,47 +93,20 @@
 		</div>
 		<div id="distances">
 			<div>
-				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="http://en.wikipedia.org/wiki/Voyager_1" target="_blank">Voyager 1</a></p>
+				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="https://en.wikipedia.org/wiki/Voyager_1" target="_blank">Voyager 1</a></p>
 				<p>Distance from Sun: <span id="voy1_ds">0</span></p>
 				<p>Distance from Earth: <span id="voy1_de">0</span></p>
 			</div>
 			<div>
-				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="http://en.wikipedia.org/wiki/Voyager_2" target="_blank">Voyager 2</a></p>
+				<p class="probe-name"><span>Click to learn more about this probe:</span> <a href="https://en.wikipedia.org/wiki/Voyager_2" target="_blank">Voyager 2</a></p>
 				<p>Distance from Sun: <span id="voy2_ds">0</span></p>
 				<p>Distance from Earth: <span id="voy2_de">0</span></p>
 			</div>
 		</div>
 		<div id="footer">
-			<p>Diagram created by <a href="http://brunophilipe.com">Bruno Philipe</a>.</p>
+			<p>Diagram created by <a href="https://brunophilipe.com">Bruno Philipe</a>.</p>
 			<p>Bodies and Probes sizes and positions are not to scale, but relative linear distances are (Perihelions used).</p>
-			<p>Data retreived from <a href="http://voyager.jpl.nasa.gov/where/" target="_blank">NASA JPL website</a> and used with <a href="usage_permission.pdf">permission</a>.</p>
+			<p>Data retreived from <a href="https://voyager.jpl.nasa.gov/where/" target="_blank">NASA JPL website</a> and used with <a href="usage_permission.pdf">permission</a>.</p>
 		</div>
-		<script>
-		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		ga('create', 'UA-30675692-1', 'brunophilipe.com');
-		ga('send', 'pageview');
-
-		</script>
-		<script>
-	      window.fbAsyncInit = function() {
-	        FB.init({
-	          appId      : '616298578467025',
-	          xfbml      : true,
-	          version    : 'v2.0'
-	        });
-	      };
-
-	      (function(d, s, id){
-	         var js, fjs = d.getElementsByTagName(s)[0];
-	         if (d.getElementById(id)) {return;}
-	         js = d.createElement(s); js.id = id;
-	         js.src = "//connect.facebook.net/en_US/sdk.js";
-	         fjs.parentNode.insertBefore(js, fjs);
-	       }(document, 'script', 'facebook-jssdk'));
-	    </script>
 	</body>
 </html>
