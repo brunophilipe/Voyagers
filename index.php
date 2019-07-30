@@ -33,7 +33,6 @@
 			<h1>Voyagers Now</h1>
 			<p>How far are the Voyager spacecrafts from the Sun and the Earth right now?</p>
 			<iframe src="https://ghbtns.com/github-btn.html?user=brunophilipe&amp;repo=Voyagers&amp;type=watch&amp;count=true" width="90" height="20"></iframe>
-			<div class="fb-like" data-href="https://www.brunophilipe.com/experiments/voyagers/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true" style="position: relative; left: -4px; top: -4px;"></div>
 		</div>
 		<div id="sun">
 			<p class="label">Sun</p>
